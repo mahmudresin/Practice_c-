@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+#define endl "\n"
+using namespace std; 
+
+class solution{
+    public: 
+    int multiclication(int A, int B){
+        return A*B; 
+    }
+};
+
+int main(){
+
+    int t; 
+    cin >> t; 
+    while(t--){
+        int A, B; 
+        cin >> A >> B; 
+        solution ob ; 
+        cout << ob.multiclication(A,B)<< endl; 
+    }
+}
